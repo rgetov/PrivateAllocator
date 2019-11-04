@@ -1,0 +1,60 @@
+Running multiple benchmarks: all
+**************** Side by side benchmarks - FILL: ****************
+vector<>:
+   1 thread(s):   private = 8.87416/sec; std = 9.47125/sec (ratio = 0.936958)
+   4 thread(s):   private = 19.7129/sec; std = 20.1468/sec (ratio = 0.978461)
+forward_list<>:
+   1 thread(s):   private = 3.55018/sec; std = 1.34829/sec (ratio = 2.63309)
+   4 thread(s):   private = 9.7025/sec; std = 3.38881/sec (ratio = 2.8631)
+list<>:
+   1 thread(s):   private = 5.99248/sec; std = 1.32754/sec (ratio = 4.51398)
+   4 thread(s):   private = 7.55691/sec; std = 3.28695/sec (ratio = 2.29906)
+multiset<>:
+   1 thread(s):   private = 2.03162/sec; std = 0.853984/sec (ratio = 2.37899)
+   4 thread(s):   private = 2.26789/sec; std = 1.82108/sec (ratio = 1.24536)
+hash<>:
+   1 thread(s):   private = 2.5293/sec; std = 0.897399/sec (ratio = 2.81848)
+   4 thread(s):   private = 4.88705/sec; std = 1.20259/sec (ratio = 4.06379)
+
+**************** Side by side benchmarks - COPY: ****************
+vector<>:
+   1 thread(s):   private = 47.9903/sec; std = 54.8496/sec (ratio = 0.874944)
+   4 thread(s):   private = 95.7401/sec; std = 100.595/sec (ratio = 0.95174)
+forward_list<>:
+   1 thread(s):   private = 7.8647/sec; std = 2.41279/sec (ratio = 3.25959)
+   4 thread(s):   private = 12.6675/sec; std = 3.65237/sec (ratio = 3.4683)
+list<>:
+   1 thread(s):   private = 10.4167/sec; std = 2.39437/sec (ratio = 4.35051)
+   4 thread(s):   private = 7.7938/sec; std = 3.24674/sec (ratio = 2.4005)
+multiset<>:
+   1 thread(s):   private = 5.62731/sec; std = 1.69032/sec (ratio = 3.32914)
+   4 thread(s):   private = 4.09279/sec; std = 1.64797/sec (ratio = 2.48353)
+hash<>:
+   1 thread(s):   private = 7.87832/sec; std = 2.21394/sec (ratio = 3.55851)
+   4 thread(s):   private = 11.5561/sec; std = 3.44739/sec (ratio = 3.35214)
+
+************** Side by side benchmarks - INSERT/DELETE: **************
+forward_list<>:
+   1 thread(s):   private = 4.75813/sec; std = 1.56333/sec (ratio = 3.04359)
+   4 thread(s):   private = 18.7645/sec; std = 5.61053/sec (ratio = 3.34451)
+list<>:
+   1 thread(s):   private = 6.7814/sec; std = 1.57324/sec (ratio = 4.31047)
+   4 thread(s):   private = 28.7862/sec; std = 5.79084/sec (ratio = 4.97099)
+multiset<>:
+   1 thread(s):   private = 0.705628/sec; std = 0.435746/sec (ratio = 1.61936)
+   4 thread(s):   private = 2.78668/sec; std = 1.66867/sec (ratio = 1.67001)
+hash<>:
+   1 thread(s):   private = 4.86496/sec; std = 1.19045/sec (ratio = 4.08664)
+   4 thread(s):   private = 18.5615/sec; std = 4.46292/sec (ratio = 4.15906)
+
+************** Side by side benchmarks - READ/WRITE: *************
+vector<>:
+   1 thread(s):   private = 75.3406/sec; std = 72.8856/sec (ratio = 1.03368)
+   4 thread(s):   private = 115.322/sec; std = 115.567/sec (ratio = 0.997881)
+forward_list<>:
+   1 thread(s):   private = 25.8835/sec; std = 4.36838/sec (ratio = 5.92519)
+   4 thread(s):   private = 55.5878/sec; std = 12.9022/sec (ratio = 4.30841)
+list<>:
+   1 thread(s):   private = 19.9337/sec; std = 5.26718/sec (ratio = 3.7845)
+   4 thread(s):   private = 36.4789/sec; std = 13.3697/sec (ratio = 2.72848)
+

@@ -1,0 +1,18 @@
+Running multiple benchmarks: copy
+**************** Side by side benchmarks - COPY: ****************
+vector<>:
+   1 thread(s):   private = 49.474/sec; std = 56.5444/sec (ratio = 0.874959)
+   4 thread(s):   private = 97.7365/sec; std = 103.481/sec (ratio = 0.944488)
+forward_list<>:
+   1 thread(s):   private = 7.2373/sec; std = 2.42201/sec (ratio = 2.98814)
+   4 thread(s):   private = 23.0975/sec; std = 5.9409/sec (ratio = 3.88788)
+list<>:
+   1 thread(s):   private = 10.9614/sec; std = 2.53944/sec (ratio = 4.31646)
+   4 thread(s):   private = 12.9664/sec; std = 3.59787/sec (ratio = 3.60391)
+multiset<>:
+   1 thread(s):   private = 6.91616/sec; std = 1.79683/sec (ratio = 3.84909)
+   4 thread(s):   private = 5.91361/sec; std = 2.43459/sec (ratio = 2.429)
+hash<>:
+   1 thread(s):   private = 7.58809/sec; std = 2.28649/sec (ratio = 3.31867)
+   4 thread(s):   private = 14.0745/sec; std = 4.85706/sec (ratio = 2.89774)
+

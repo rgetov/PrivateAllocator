@@ -1,0 +1,4 @@
+$ /usr/bin/time -f "%M k" ./RunBenchmarks.exe vector copy std 1
+Running a single benchmark (vector/copy/std/1 thread)...completed. Rate = 68.8705/sec.
+99468 k
+$

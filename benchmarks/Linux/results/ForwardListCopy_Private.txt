@@ -1,0 +1,5 @@
+rado@rado-Ubuntu18:~/allocators_clean1$ /usr/bin/time -f "%M k" ./RunBenchmarks.exe forward_list copy private 1
+Running a single benchmark (forward_list/copy/private/1 thread)...completed. Rate = 16.9323/sec.
+197432 k
+rado@rado-Ubuntu18:~/allocators_clean1$ 
+
